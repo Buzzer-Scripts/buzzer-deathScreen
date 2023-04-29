@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>BUZZER DEAD SCREEN</title>
+</head>
+<body>
+    <div id="buz-container">
+        <div class="buz-dead-screen-bg"></div>
+        <h3 class="buz-dead-screen-content">you</h3>
+        <h3 class="buz-dead-screen-sub">has been injured</h3>
+        <div class="buz-time-wrapper">
+            <span id="buz-count-time">15 seconds</span>
+            <p class="buz-sub-content">before losing consciousness</p>
+        </div>
+        <button class="buz-call-btn animate__animated animate__fadeIn">
+            <p>press G to call ambulance</p>
+            <img src="./img/heart.png" alt="" class="icon">
+        </button>
+        <div class="buz-show-btn-notify animate__animated animate__fadeInLeft">
+            <div class="wrapper">
+                <div class="buz-show-btn">e</div>
+                <div class="buz-notify-content">Hold “E” within 5 seconds to respawn at the hospital</div>
+            </div>
+        </div>
+        <div class="buz-notify-warning animate__animated animate__fadeInLeft animate__delay-2s"><span>Notice:</span> All belongings on the person will be gone.</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
