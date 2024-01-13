@@ -6,7 +6,7 @@ Tebex: https://buzzer-store.tebex.io/
 Free DeathScreen Script With Clean UI
 
 # Installation
-* **Join in our Discord to get support**
-* **Ensure the GOODS**
+* This script is no longer get supported
+* **Ensure to have to trigger by your own ^^**
 
 # ENJOY!!
